@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TrueCare Cleaning | Home & Short-Let Cleaning</title>
+
+  <meta
+    name="description"
+    content="Careful cleaning for family homes and short-let properties in London and Luton. Contact TrueCare Cleaning for a quote."
+  >
+
+  <!-- Google Fonts: Manrope (Headings) & DM Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <!-- ========================================================
+       CABEÇALHO / HEADER
+       ======================================================== -->
+  <header class="header" id="header">
+    <div class="container header-content">
+      <!-- Logo TrueCare -->
+      <a class="logo" href="#home" aria-label="TrueCare Cleaning - Home">
+        <img class="header-logo" src="assets/images/Log%C3%B3tipo%20minimalista%20TrueCare%20Cleaning.png" alt="TrueCare Cleaning" width="1774" height="887" decoding="async">
+      </a>
+
+      <!-- Menu Principal (Desktop & Mobile Drawer) -->
+      <nav id="main-nav" class="nav-menu" aria-label="Main navigation" data-aria="navLabel">
+        <a href="#services" class="nav-link" data-i18n="navServices">Services</a>
+        <a href="#about" class="nav-link" data-i18n="navAbout">About</a>
+        <a href="#areas" class="nav-link" data-i18n="navAreas">Areas</a>
+        <a href="https://wa.me/447522108372?text=Hello!%20I%E2%80%99d%20like%20to%20request%20a%20cleaning%20quote.%20Could%20you%20please%20tell%20me%20about%20your%20services%20and%20availability%3F" class="nav-button" data-whatsapp target="_blank" rel="noopener noreferrer" aria-label="Request a quote on WhatsApp (opens in a new tab)"><span class="whatsapp-symbol" aria-hidden="true"></span><span data-i18n="navQuote">Get a quote</span></a>
+      </nav>
+
+      <!-- Controles (Idioma, Tema, Menu Celular) -->
+      <div class="header-controls">
+        <!-- Alternador de Idioma (EN / PT) -->
+        <button
+          class="control-button control-lang"
+          id="language-toggle"
+          type="button"
+          aria-label="Switch language to Portuguese"
+        >
+          <span class="control-lang-text" id="lang-indicator">PT</span>
+        </button>
+
+        <!-- Alternador de Tema (Claro / Escuro) -->
+        <button
+          class="control-button control-theme"
+          id="theme-toggle"
+          type="button"
+          aria-label="Switch to dark theme"
+        >
+          <span class="theme-icon-wrap" aria-hidden="true">
+            <!-- Ícone Sol (Modo Claro) -->
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/>
+            </svg>
+            <!-- Ícone Lua (Modo Escuro) -->
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+            </svg>
+          </span>
+          <span class="theme-label">Dark</span>
+        </button>
+
+        <!-- Botão Menu Mobile (Visível apenas em telas menores) -->
+        <button
+          class="control-button menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <span class="menu-bar menu-bar-top" aria-hidden="true"></span>
+          <span class="menu-bar menu-bar-middle" aria-hidden="true"></span>
+          <span class="menu-bar menu-bar-bottom" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================
+         SEÇÃO PRINCIPAL / HERO
+         ======================================================== -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+<h1 class="hero-heading" data-i18n="heroTitle">
+            Genuine care for the spaces that matter.
+          </h1>
+
+          <p class="hero-lead" data-i18n="heroDescription">
+            Cleaning for family homes and short-let properties, with
+            attention to detail and care in every visit.
+          </p>
+
+          <!-- Botões de Ação -->
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wa.me/447522108372?text=Hello!%20I%E2%80%99d%20like%20to%20request%20a%20cleaning%20quote.%20Could%20you%20please%20tell%20me%20about%20your%20services%20and%20availability%3F" data-whatsapp target="_blank" rel="noopener noreferrer" aria-label="Request a quote on WhatsApp (opens in a new tab)"><span class="whatsapp-symbol" aria-hidden="true"></span>
+              <span data-i18n="heroQuote">Request a quote</span>
+              
+            </a>
+
+            <a class="button button-secondary" href="#services">
+              <span data-i18n="heroServices">Explore our services</span>
+            </a>
+          </div>
+
+          <p class="hero-location">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span data-i18n="heroLocation">London and nearby areas • Based in Luton</span>
+          </p>
+        </div>
+
+        <div class="hero-media reveal">
+          <figure class="hero-media-wrapper showcase-photo">
+            <img src="assets/images/IMG_6575.jpeg" alt="Carefully arranged bed with layered cushions and folded guest towels" data-alt="heroPhotoAlt" class="hero-media-element" width="1179" height="2014" fetchpriority="high" decoding="async">
+            <figcaption class="photo-caption"><span data-i18n="heroPhotoCaption">Thoughtful details. A welcoming stay.</span><small>TrueCare Cleaning</small></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SERVIÇOS / SERVICES
+         ======================================================== -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow" data-i18n="servicesLabel">OUR SERVICES</span>
+
+          <h2 data-i18n="servicesTitle">
+            A clean space, ready to live in or welcome guests.
+          </h2>
+
+          <p data-i18n="servicesDescription">
+            Every property is different. We discuss your needs and
+            arrange a service that works for you.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Serviço 1: Limpeza Residencial -->
+          <article class="service-card reveal">
+            <img class="service-photo" src="assets/images/IMG_6513.jpeg" alt="Clean kitchen with polished worktops and tiled floor" data-alt="kitchenPhotoAlt" width="1152" height="2048" loading="lazy" decoding="async">
+            <div class="service-header">
+              <span class="service-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                  <polyline points="9 22 9 12 15 12 15 22"/>
+                </svg>
+              </span>
+              <span class="service-number">01</span>
+            </div>
+
+            <h3 data-i18n="homeCleaningTitle">Home cleaning</h3>
+
+            <p data-i18n="homeCleaningDescription">
+              Cleaning for houses and flats, helping keep your home
+              pleasant and ready for everyday life.
+            </p>
+
+            <ul class="service-features" aria-label="Service details">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="homeFeature1">Living areas, bedrooms & common spaces</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="homeFeature2">Kitchens & bathrooms thorough care</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="homeFeature3">Flexible regular or occasional visits</span>
+              </li>
+            </ul>
+
+            <a class="service-link" href="https://wa.me/447522108372?text=Hello!%20I%E2%80%99d%20like%20to%20request%20a%20cleaning%20quote.%20Could%20you%20please%20tell%20me%20about%20your%20services%20and%20availability%3F" data-whatsapp target="_blank" rel="noopener noreferrer" aria-label="Request a quote on WhatsApp (opens in a new tab)"><span class="whatsapp-symbol" aria-hidden="true"></span>
+              <span data-i18n="serviceQuote">Get a quote</span>
+              
+            </a>
+          </article>
+
+          <!-- Serviço 2: Curta Temporada (Airbnb) -->
+          <article class="service-card reveal">
+            <img class="service-photo" src="assets/images/IMG_6574.jpeg" alt="Guest bedroom prepared with fresh bedding and folded towels" data-alt="guestPhotoAlt" width="1152" height="2048" loading="lazy" decoding="async">
+            <div class="service-header">
+              <span class="service-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/>
+                </svg>
+              </span>
+              <span class="service-number">02</span>
+            </div>
+
+            <h3 data-i18n="airbnbTitle">Short-let cleaning</h3>
+
+            <p data-i18n="airbnbDescription">
+              Cleaning for Airbnb and other short-let properties,
+              helping you prepare for your next guests.
+            </p>
+
+            <ul class="service-features" aria-label="Service details">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="airbnbFeature1">Guest-ready turnaround preparation</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="airbnbFeature2">Linen & towel organization support</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="airbnbFeature3">Attention to cleanliness standards</span>
+              </li>
+            </ul>
+
+            <a class="service-link" href="https://wa.me/447522108372?text=Hello!%20I%E2%80%99d%20like%20to%20request%20a%20cleaning%20quote.%20Could%20you%20please%20tell%20me%20about%20your%20services%20and%20availability%3F" data-whatsapp target="_blank" rel="noopener noreferrer" aria-label="Request a quote on WhatsApp (opens in a new tab)"><span class="whatsapp-symbol" aria-hidden="true"></span>
+              <span data-i18n="serviceQuote">Get a quote</span>
+              
+            </a>
+          </article>
+
+          <!-- Serviço 3: Limpeza Avulsa -->
+          <article class="service-card reveal">
+            <img class="service-photo" src="assets/images/IMG_6516.jpeg" alt="Tidy dining area with a wooden table and natural light" data-alt="diningPhotoAlt" width="1152" height="2048" loading="lazy" decoding="async">
+            <div class="service-header">
+              <span class="service-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                </svg>
+              </span>
+              <span class="service-number">03</span>
+            </div>
+
+            <h3 data-i18n="oneOffTitle">One-off cleaning</h3>
+
+            <p data-i18n="oneOffDescription">
+              Need a helping hand for a specific occasion? Tell us
+              what your space needs.
+            </p>
+
+            <ul class="service-features" aria-label="Service details">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="oneOffFeature1">Ideal for seasonal or specific needs</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="oneOffFeature2">Focused cleaning plan for your space</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="oneOffFeature3">Tailored scope agreed in advance</span>
+              </li>
+            </ul>
+
+            <a class="service-link" href="https://wa.me/447522108372?text=Hello!%20I%E2%80%99d%20like%20to%20request%20a%20cleaning%20quote.%20Could%20you%20please%20tell%20me%20about%20your%20services%20and%20availability%3F" data-whatsapp target="_blank" rel="noopener noreferrer" aria-label="Request a quote on WhatsApp (opens in a new tab)"><span class="whatsapp-symbol" aria-hidden="true"></span>
+              <span data-i18n="serviceQuote">Get a quote</span>
+              
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         COMO FUNCIONA / HOW IT WORKS
+         ======================================================== -->
+    <section class="section process-section" id="process">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow" data-i18n="processLabel">HOW IT WORKS</span>
+          <h2 data-i18n="processTitle">Simple steps, thoughtful results.</h2>
+          <p data-i18n="processDescription">
+            We keep the process clear and tailored from your first message to the final check.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card reveal">
+            <span class="process-step">01</span>
+            <h3 data-i18n="processStep1Title">Tell us about your space</h3>
+            <p data-i18n="processStep1Text">
+              Share your property type, location, and the kind of cleaning you need.
+            </p>
+          </article>
+
+          <article class="process-card reveal">
+            <span class="process-step">02</span>
+            <h3 data-i18n="processStep2Title">We tailor the visit</h3>
+            <p data-i18n="processStep2Text">
+              We listen to your routine, priorities, and preferred timing before confirming the service.
+            </p>
+          </article>
+
+          <article class="process-card reveal">
+            <span class="process-step">03</span>
+            <h3 data-i18n="processStep3Title">Enjoy a cared-for space</h3>
+            <p data-i18n="processStep3Text">
+              Receive a clean, welcoming environment that feels ready for everyday life or guests.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SOBRE / ABOUT
+         ======================================================== -->
+    <section class="section about" id="about">
+      <div class="container about-content">
+        <div class="about-narrative reveal">
+          <span class="eyebrow" data-i18n="aboutLabel">ABOUT TRUECARE</span>
+
+          <h2 data-i18n="aboutTitle">
+            More than cleaning. It’s caring.
+          </h2>
+
+          <p class="about-lead" data-i18n="aboutParagraphOne">
+            At TrueCare Cleaning, we believe a well-cared-for space makes
+            a difference to the people who live in it and those who visit.
+          </p>
+
+          <p data-i18n="aboutParagraphTwo">
+            Our service starts with a conversation. Tell us what you need
+            and we’ll prepare a quote for your property.
+          </p>
+        </div>
+
+        <!-- Pilares de Cuidado e Confiança -->
+        <div class="about-pillars reveal">
+          <div class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <h4 data-i18n="aboutPillar1Title">Attention to Detail</h4>
+              <p data-i18n="aboutPillar1Desc">Care in every surface and corner, respecting your home.</p>
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <h4 data-i18n="aboutPillar2Title">Tailored Consultation</h4>
+              <p data-i18n="aboutPillar2Desc">We listen first to arrange a service that fits your requirements.</p>
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <h4 data-i18n="aboutPillar3Title">Welcoming Spaces</h4>
+              <p data-i18n="aboutPillar3Desc">Creating pleasant, pristine environments for family and guests.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         REGIÕES / WHERE WE WORK
+         ======================================================== -->
+    <section class="section results-section" id="results" aria-labelledby="results-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow" data-i18n="resultsLabel">OUR WORK</span>
+          <h2 id="results-title" data-i18n="resultsTitle">See the care in every detail.</h2>
+          <p data-i18n="resultsDescription">Before and after, from bedroom preparation to the surfaces we touch every day.</p>
+        </div>
+        <div class="results-grid">
+          <article class="result-card reveal">
+            <h3 data-i18n="bedroomResult">Guest-ready bedroom</h3>
+            <div class="comparison-pair">
+              <figure>
+                <img src="assets/images/IMG_6581.jpeg" alt="Guest-ready bedroom: before cleaning" data-alt="bedroomResultBeforeAlt" width="1152" height="2048" loading="lazy" decoding="async">
+                <figcaption data-i18n="beforeLabel">Before</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/images/IMG_6574.jpeg" alt="Guest-ready bedroom: after cleaning" data-alt="bedroomResultAfterAlt" width="1152" height="2048" loading="lazy" decoding="async">
+                <figcaption data-i18n="afterLabel">After</figcaption>
+              </figure>
+            </div>
+          </article>
+          <article class="result-card reveal">
+            <h3 data-i18n="detailResult">Care in the details</h3>
+            <div class="comparison-pair">
+              <figure>
+                <img src="assets/images/IMG_5964.jpeg" alt="Care in the details: before cleaning" data-alt="detailResultBeforeAlt" width="1152" height="2048" loading="lazy" decoding="async">
+                <figcaption data-i18n="beforeLabel">Before</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/images/IMG_5966.jpeg" alt="Care in the details: after cleaning" data-alt="detailResultAfterAlt" width="1152" height="2048" loading="lazy" decoding="async">
+                <figcaption data-i18n="afterLabel">After</figcaption>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section areas-section" id="areas">
+      <div class="container area-content">
+        <div class="areas-header reveal">
+          <span class="eyebrow" data-i18n="areasLabel">WHERE WE WORK</span>
+
+          <h2 data-i18n="areasTitle">London and nearby areas</h2>
+
+          <p data-i18n="areasDescription">
+            Based in Luton, we serve Canary Wharf and other areas of London
+            and the surrounding region, depending on availability and travel.
+          </p>
+        </div>
+
+        <!-- Tags Visuais de Regiões de Atendimento -->
+        <div class="areas-badges-grid reveal" aria-label="Covered regions">
+          <div class="area-badge area-badge--priority">
+            <span class="area-pin-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </span>
+            <div class="area-badge-info">
+              <strong data-i18n="areasCanaryWharf">Canary Wharf</strong>
+              <small data-i18n="areasFocus">Primary Focus Area</small>
+            </div>
+          </div>
+
+          <div class="area-badge">
+            <span class="area-pin-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </span>
+            <div class="area-badge-info">
+              <strong data-i18n="areasCentralLondon">Central & East London</strong>
+              <small data-i18n="areasByAvailability">By availability</small>
+            </div>
+          </div>
+
+          <div class="area-badge">
+            <span class="area-pin-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </span>
+            <div class="area-badge-info">
+              <strong data-i18n="areasLuton">Luton</strong>
+              <small data-i18n="areasHomeBase">Operational Base</small>
+            </div>
+          </div>
+
+          <div class="area-badge">
+            <span class="area-pin-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </span>
+            <div class="area-badge-info">
+              <strong data-i18n="areasSurrounding">Surrounding Areas</strong>
+              <small data-i18n="areasByRequest">Upon request</small>
+            </div>
+          </div>
+        </div>
+
+        <p class="areas-note reveal" data-i18n="areasNote">
+          Travel and availability are confirmed during your quote inquiry.
+        </p>
+
+        <div class="reveal">
+          <a class="button button-secondary areas-cta" href="#contact">
+            <span data-i18n="areasLink">Check your area →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         CONTATO / LET'S TALK
+         ======================================================== -->
+    <section class="section contact" id="contact">
+      <div class="container contact-container">
+        <div class="contact-header reveal">
+          <span class="eyebrow" data-i18n="contactLabel">LET’S TALK</span>
+
+          <h2 data-i18n="contactTitle">
+            Let TrueCare take care of your space.
+          </h2>
+
+          <p data-i18n="contactDescription">
+            Get in touch and tell us your location and the type of cleaning
+            you need.
+          </p>
+        </div>
+
+        <div class="contact-grid reveal">
+          <!-- Card de Ação WhatsApp (Pronto para adicionar número) -->
+          <div class="contact-action-card whatsapp-card">
+            <div class="contact-action-header">
+              <div class="whatsapp-icon-circle" aria-hidden="true">
+                <!-- Lucide / WhatsApp Message Circle SVG -->
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
+                  <path d="M8 12h.01"/>
+                  <path d="M12 12h.01"/>
+                  <path d="M16 12h.01"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="whatsapp-card-title" data-i18n="contactWhatsAppTitle">Direct WhatsApp Inquiry</h3>
+                <p class="whatsapp-card-subtitle" data-i18n="contactWhatsAppSubtitle">Fastest way to get in touch and discuss your schedule.</p>
+              </div>
+            </div>
+
+
+            <div class="whatsapp-button-container">
+              <a
+                class="button button-whatsapp"
+                href="https://wa.me/447522108372?text=Hello!%20I%E2%80%99d%20like%20to%20request%20a%20cleaning%20quote.%20Could%20you%20please%20tell%20me%20about%20your%20services%20and%20availability%3F"
+                id="whatsapp-cta-button"
+               
+               
+               
+               
+               data-whatsapp target="_blank" rel="noopener noreferrer" aria-label="Request a quote on WhatsApp (opens in a new tab)"><span class="whatsapp-symbol" aria-hidden="true"></span>
+                
+                <span data-i18n="contactWhatsAppButton">Chat on WhatsApp</span>
+              </a>
+
+              <div class="contact-note" data-i18n="contactReadyNote">
+                Fastest way to get a quote • Usually replies in a few hours
+              </div>
+            </div>
+          </div>
+
+          <!-- Card de Preparação para Orçamento Rápido -->
+          <div class="contact-action-card quote-guide-card">
+            <h3 class="quote-guide-title" data-i18n="contactQuoteCardTitle">What to share for your quote</h3>
+            <ul class="quote-steps-list">
+              <li>
+                <span class="step-num" aria-hidden="true">1</span>
+                <div>
+                  <strong data-i18n="contactStep1Title">Property Type</strong>
+                  <p data-i18n="contactStep1">Home, apartment, or short-let accommodation</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-num" aria-hidden="true">2</span>
+                <div>
+                  <strong data-i18n="contactStep2Title">Location</strong>
+                  <p data-i18n="contactStep2">Canary Wharf, London area, or Luton</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-num" aria-hidden="true">3</span>
+                <div>
+                  <strong data-i18n="contactStep3Title">Timing & Needs</strong>
+                  <p data-i18n="contactStep3">Preferred frequency or target date</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       RODAPÉ / FOOTER
+       ======================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <!-- Coluna Marca -->
+      <div class="footer-brand">
+        <a class="logo logo-footer" href="#home" aria-label="TrueCare Cleaning - Home">
+          <span class="logo-text">
+            <span class="logo-name">True<span class="logo-accent">Care</span></span>
+            <small class="logo-sub">Cleaning</small>
+          </span>
+        </a>
+        <p class="footer-tagline" data-i18n="footerTagline">
+          Genuine care for the spaces that matter.
+        </p>
+      </div>
+
+      <!-- Links Rápidos -->
+      <div class="footer-links-group">
+        <h4 class="footer-heading" data-i18n="footerNavTitle">Navigation</h4>
+        <ul class="footer-nav-list">
+          <li><a href="#services" data-i18n="navServices">Services</a></li>
+          <li><a href="#about" data-i18n="navAbout">About</a></li>
+          <li><a href="#areas" data-i18n="navAreas">Areas</a></li>
+          <li><a href="https://wa.me/447522108372?text=Hello!%20I%E2%80%99d%20like%20to%20request%20a%20cleaning%20quote.%20Could%20you%20please%20tell%20me%20about%20your%20services%20and%20availability%3F" data-whatsapp target="_blank" rel="noopener noreferrer" aria-label="Request a quote on WhatsApp (opens in a new tab)"><span class="whatsapp-symbol" aria-hidden="true"></span><span data-i18n="navQuote">Get a quote</span></a></li>
+        </ul>
+      </div>
+
+      <!-- Serviços -->
+      <div class="footer-links-group">
+        <h4 class="footer-heading" data-i18n="footerServicesTitle">Services</h4>
+        <ul class="footer-nav-list">
+          <li><a href="#services" data-i18n="homeCleaningTitle">Home cleaning</a></li>
+          <li><a href="#services" data-i18n="airbnbTitle">Short-let cleaning</a></li>
+          <li><a href="#services" data-i18n="oneOffTitle">One-off cleaning</a></li>
+        </ul>
+      </div>
+
+      <!-- Atendimento e Localização -->
+      <div class="footer-links-group">
+        <h4 class="footer-heading" data-i18n="footerCoverageTitle">Coverage</h4>
+        <p class="footer-coverage-text" data-i18n="footerCoverageText">
+          Based in Luton, proudly serving Canary Wharf and London areas.
+        </p>
+      </div>
+    </div>
+
+    <!-- Linha de Direitos Autorais -->
+    <div class="container footer-bottom">
+      <p>© 2026 TrueCare Cleaning. <span data-i18n="footerRights">All rights reserved.</span></p>
+    </div>
+  </footer>
+  <a class="whatsapp-floating" data-whatsapp href="https://wa.me/447522108372?text=Hello!%20I%E2%80%99d%20like%20to%20request%20a%20cleaning%20quote.%20Could%20you%20please%20tell%20me%20about%20your%20services%20and%20availability%3F" target="_blank" rel="noopener noreferrer" aria-label="Request a quote on WhatsApp (opens in a new tab)"><span class="whatsapp-symbol" aria-hidden="true"></span></a>
+</body>
+</html>
